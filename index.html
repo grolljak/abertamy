@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
   <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -87,20 +87,20 @@
       <div class="col-md-12">
 
         <div class="block-32">
-          <form action="#">
+          <form action="./rezervace.html" mnethod="GET">
             <div class="row">
               <div class="col-md-6 mb-3 mb-lg-0 col-lg-3">
                 <label for="checkin">Datum příjezdu:</label>
                 <div class="field-icon-wrap">
                   <div class="icon"><span class="icon-calendar"></span></div>
-                  <input type="text" autocomplete="off" id="checkin_date" class="form-control">
+                  <input type="text" autocomplete="off" id="checkin_date" name="checkin_date" class="form-control">
                 </div>
               </div>
               <div class="col-md-6 mb-3 mb-lg-0 col-lg-3">
                 <label for="checkin">Datum odjezdu:</label>
                 <div class="field-icon-wrap">
                   <div class="icon"><span class="icon-calendar"></span></div>
-                  <input type="text" autocomplete="off" id="checkout_date" class="form-control">
+                  <input type="text" autocomplete="off" id="checkout_date" name="checkout_date" class="form-control">
                 </div>
               </div>
               <div class="col-md-6 mb-3 mb-md-0 col-lg-3">
@@ -109,13 +109,14 @@
                     <label for="checkin">Dospělých:</label>
                     <div class="field-icon-wrap">
                       <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="" id="" class="form-control">
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4</option>
-                        <option value="">5</option>
-                        <option value="">6</option>
-                        <option value="">7+</option>
+                     
+                      <select name="adults" id="" class="form-control">
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7+">7+</option>
                       </select>
                     </div>
                   </div>
@@ -123,11 +124,11 @@
                     <label for="checkin">Dětí:</label>
                     <div class="field-icon-wrap">
                       <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="" id="" class="form-control">
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4+</option>
+                      <select name="kids" id="" class="form-control">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4+">4+</option>
                       </select>
                     </div>
                   </div>
@@ -381,7 +382,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-
+  <script src="js/load-params.js"></script>
 </body>
 
 </html>
