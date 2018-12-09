@@ -8687,6 +8687,11 @@ margin-top: -1rem;
     .block-33 .text blockquote p:last-child {
       margin-bottom: 0; }
 
+.block-34 .price_child {
+  float: right;
+  margin-top: 1rem;
+}
+
 .block-34, .block-3 {
   background: #fff;
   -webkit-box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
