@@ -8690,6 +8690,9 @@ margin-top: -1rem;
 .block-34 .price_child {
   float: right;
   margin-top: 1rem;
+  border-radius: 15px;
+  background-color: #80ce4d;
+  padding: 0px 6px;
 }
 
 .block-34, .block-3 {
