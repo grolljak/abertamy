@@ -7620,6 +7620,9 @@ textarea.form-control {
 .site-section {
   padding: 5em 0; }
 
+.site-section3 {
+  padding: 3em 0; }
+
 .ftco-bg-dark {
   background: #3c312e; }
 
@@ -8078,9 +8081,11 @@ textarea.form-control {
   margin-bottom: 30px; }
   .block-6 .icon {
     margin-right: 30px;
-    color: #fc3c3c; }
+    color: #fc3c3c; 
+    min-width: 30px;
+    text-align: center; }
     .block-6 .icon span:before {
-      font-size: 50px; }
+      font-size: 30px; }
     .block-6 .icon span.bg-after:after {
       position: absolute;
       content: "";
@@ -8991,6 +8996,36 @@ margin-top: -1rem;
   left: -25px;
   bottom: 30px;
   transform: rotate(-225deg);
+}
+
+.image-hover-effect {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hovering-image {
+  transition: .5s ease;
+}
+
+.hovering-container:hover .hovering-image {
+  opacity: 0.4;
+}
+
+.hovering-container:hover .image-hover-effect {
+  opacity: 1;
+}
+
+.image-hover-text {
+  background-color: #fc3c3c;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
 @-webkit-keyframes loader-rotate {
