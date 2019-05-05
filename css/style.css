@@ -8340,6 +8340,9 @@ textarea.form-control {
   font-size: 11px; }
   .tagcloud a:hover {
     border: 1px solid #000; }
+  .tagcloud a.selected {
+    border: 1px solid #000;
+  }
 
 .comment-form-wrap {
   clear: both; }
