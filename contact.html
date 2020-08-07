@@ -61,33 +61,72 @@
     <div class="container">
       <div class="row block-9">
         <div class="col-md-6 pr-md-5">
-          <form class="gform pure-form pure-form-stacked" method='POST'
-            action="https://script.google.com/macros/s/AKfycbyBpmNDNRV2J6p_Sx9ZDaW_klwVzFVXFvTkYX4A3w/exec">
+          <!--<form class="gform pure-form pure-form-stacked" method='POST'
+            action="https://script.google.com/macros/s/AKfycbyBpmNDNRV2J6p_Sx9ZDaW_klwVzFVXFvTkYX4A3w/exec">-->
 
             <div class="thankyou_message" style="display:none;">
               <h2>Zpráva byla odeslána!</h2>
             </div>
 
+            <div class="thankyou_message">
+              <h3>Formulář je dočasně nedostupný!</h3>
+            <p>Můžete nás kontaktovat na emailu uvedeném napravo.</br> Děkujeme za pochopení.</p>
+            </div>
+
             <div class="form-group">
-              <input name='jmeno' type="text" class="form-control px-3 py-3" placeholder="Celé jméno">
+              <input name='jmeno' type="text" class="form-control px-3 py-3" placeholder="Celé jméno" disabled>
             </div>
             <div class="form-group">
-              <input name='email' type="text" class="form-control px-3 py-3" placeholder="Email">
+              <input name='email' type="text" class="form-control px-3 py-3" placeholder="Email" disabled>
             </div>
             <div class="form-group">
-              <input name='predmet' type="text" class="form-control px-3 py-3" placeholder="Předmět">
+              <input name='predmet' type="text" class="form-control px-3 py-3" placeholder="Předmět" disabled>
             </div>
             <div class="form-group">
               <textarea name="zprava" id="" cols="30" rows="7" class="form-control px-3 py-3"
-                placeholder="Zpráva"></textarea>
+                placeholder="Zpráva" disabled></textarea>
             </div>
             <div class="form-group">
-              <input type="submit" value="Odeslat dotaz" class="btn btn-primary py-3 px-5">
+              <input type="submit" value="Odeslat dotaz" class="btn btn-primary py-3 px-5" disabled>
             </div>
           </form>
         </div>
-        <div class="col-md-6" id="map"></div>
+        <div class="col-lg-5 pl-md-5 site-section3">
+
+          <div class="media block-6">
+            <div class="icon"><a href="mailto:info%40apartmanymichaela.cz"><span class="ion-ios-mail"></a></span></div>
+            <div class="media-body">
+              <h3 class="heading">info@apartmanymichaela.cz</h3>
+              <p>V případě dotazů, připomínek či poděkování :) nás prosím kontaktujte na výše uvedeném e-mailu.</p>
+            </div>
+          </div>
+
+          <div class="media block-6">
+            <div class="icon"><span class="ion-ios-phone-portrait"></span></div>
+            <div class="media-body">
+              <h3 class="heading">+420 739 612 003</h3>
+            </div>
+          </div>
+
+          <div class="media block-6">
+            <div class="icon"><span class="ion-ios-pin"></span></div>
+            <div class="media-body">
+              <h3 class="heading"><a
+                href="https://www.google.com/maps/place/Dlouh%C3%A1+39,+362+35+Abertamy/@50.3693832,12.8177006,17z/data=!3m1!4b1!4m5!3m4!1s0x47a0bc9465ec0d29:0x567e6ffb28586150!8m2!3d50.3693832!4d12.8198893">
+                Dlouhá 39, 362 35, Abertamy, Česká republika</a></h3>
+            </div>
+          </div>
+
+          <div class="media block-6">
+            <div class="icon"><span class="ion-logo-facebook"></span></div>
+            <div class="media-body">
+              <h3 class="heading"><a href="https://www.facebook.com/apartmanymichaela/">Facebook / Apartmány Michaela</a></h3>
+            </div>
+          </div>
+
+        </div>
       </div>
+      
     </div>
   </div>
 
